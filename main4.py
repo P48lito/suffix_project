@@ -18,3 +18,6 @@ for filename in os.listdir(dir):
     # os.rename(dir + filename, dir + filename.replace('(Radio Edit)', ''))
     # os.rename(dir + filename, dir + filename.replace('(Album Version)', ''))
     # os.rename(dir + filename, dir + filename.replace('(Official Audio)', ''))
+    # os.rename(dir + filename, dir + filename.replace(' (Official Video)', ''))
+    # os.rename(dir + filename, dir + filename.replace(' (Original Version)', ''))
+    # os.rename(dir + filename, dir + filename.replace(' (Original Version)', ''))
