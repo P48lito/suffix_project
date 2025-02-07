@@ -36,3 +36,7 @@ for filename in os.listdir(dir):
     os.rename(dir + filename, dir + filename.replace(' (Original Version)', ''))
 for filename in os.listdir(dir):
     os.rename(dir + filename, dir + filename.replace(' Cover', ''))
+for filename in os.listdir(dir):
+    os.rename(dir + filename, dir + filename.replace(' (Live)', ''))
+for filename in os.listdir(dir):
+    os.rename(dir + filename, dir + filename.replace(' [HQ]', ''))
